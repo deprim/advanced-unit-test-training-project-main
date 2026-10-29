@@ -28,10 +28,10 @@ public class AdoptionEligibilityServiceTest {
     private AnimalRepository animalRepository;
 
     @Mock
-    NotificationClient notificationClient;
+    private NotificationClient notificationClient;
 
     @Mock
-    AuditLogger auditLogger;
+    private AuditLogger auditLogger;
 
     @InjectMocks
     private AdoptionEligibilityService service;
